@@ -58,8 +58,7 @@ class Bag:
         Return a list of (count, item) pairs.
         """
         # You will be asked to add your own code here later
-        sorted(self.items)
-        return self.items 
+       return  self.items.most_common()
 
 
 
